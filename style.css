@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(159, 187, 252);
+}
+
+.container{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,textarea,button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(1, 1, 19);
+}
+
+.task{
+    background-color: rgb(247,247,247);
+    font: 100 1rem sans-serif;
+    padding: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 2vmax;
+
+}
+
+.task > div{
+    width: 100%;
+}
+
+.deleteBtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: crimson;
+}
+.todo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
